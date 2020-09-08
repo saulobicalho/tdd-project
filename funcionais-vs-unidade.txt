@@ -1,0 +1,12 @@
+Duas diferenças entre testes funcionais e testes de unidade:
+
+1)
+Os testes de unidade têm fatores externos reduzidos, uma vez que se preocupam em testar a parte mais simples de
+um código. Testes funcionais por sua vez podem ocasionar efeitos colaterais em outras partes do código, embora
+as mesmas não sejam levadas em consideração (pretende-se analisar apenas os resultados de um recurso em
+particular)
+
+2)
+Testes funcionais são caracterizados como testes caixa-preta, pois se baseiam apenas na interface do sistema,
+sem considerar aspectos estruturais do código. Testes de unidade por sua vez se concentram no teste de um
+elemento estrutural do código, e que muitas vezes não está visível à interface do sistema.
