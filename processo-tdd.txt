@@ -1,0 +1,16 @@
+Nosso processo de TDD, conforme realizado neste projeto, inicia-se com a escrita de um teste fucional.
+Em seguida, observa-se se o mesmo é executado sem erros. Ou seja, é feita a execução do mesmo, ainda sem
+que o código relativo à funcionalidade testada esteja implementado.
+Para o caso em que o teste funcional tenha sido aprovado, torna-se necessário ainda questionar-se quanto
+à necessidade de uma refatoração da aplicação. Caso não seja necessária, retorna-se ao primeiro passo,
+com o início de novo ciclo de escrita de novo teste funcional.
+Observa-se, porém, que para os casos em que o teste funcional falhou, ou em que a aplicação requer uma
+refatoração, passa-se ao ciclo da escrita de um teste unitário.
+Após executado o teste unitário, em caso de execução com erros passa-se à escrita do código minimamente
+necessário para que o teste seja executado sem erros. Este ciclo continua até que o teste unitário
+seja aprovado. Nesse caso, deve-se inquirir sobre a necessidade de refatoração da aplicação. Em caso
+que se comprove essa necessidade, volta-se à escrita do código, e nova execução do teste, até que seja
+novamente aprovado.
+Uma vez que o teste unitário tenha sido aprovado, e não se observe mais a necessidade de refatoração
+da aplicação, executa-se novamente o teste funcional, e uma nova análise de necessidade de refatoração
+da funcionalidade, até que o processo se encerre, e reinicie com a escrita de outro teste funcional.
