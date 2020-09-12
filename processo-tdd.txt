@@ -14,3 +14,4 @@ novamente aprovado.
 Uma vez que o teste unitário tenha sido aprovado, e não se observe mais a necessidade de refatoração
 da aplicação, executa-se novamente o teste funcional, e uma nova análise de necessidade de refatoração
 da funcionalidade, até que o processo se encerre, e reinicie com a escrita de outro teste funcional.
+
